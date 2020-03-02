@@ -36,7 +36,6 @@ Now, your TJBot should deactivate the LED (in case it was already running before
 graph LR
 A[Joey the Stockbroker] -- Stressed/Tired/Must Stay Competitive --> B((Needs instant updates)) 
 B --> D{Solution: Real time Updates}
-```
 
 # License
 This project is licensed under Apache 2.0. Full license is available in [LICENSE](https://github.com/gigabots-tjbot/stockpricemonitor/blob/master/LICENSE).
