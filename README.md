@@ -2,7 +2,7 @@
 Stock monitoring recipe for TJBot with LED light support based on the fluctuations in price. This recipe utlizes the [8mm NeoPixel RGB LED](adafruit.com/product/1734) to shine in response to positive and negative reactions, as well as the [Financial Modeling Prep API](financialmodelingprep.com/developer/docs#Stock-Historical-Price)
 >Contributed by the Gigabots team: Spark Park, Jatejah Phillips, Joseph Burford, Reagan Porter, and Jon Nguyen.
 
-# Hardware
+# Pre
 This recipe requires a TJBot with a [8mm NeoPixel RGB LED](adafruit.com/product/1734). 
 
 # Use Cases
@@ -24,8 +24,6 @@ sudo apt-get -y dist-upgrade
 4. Install Node.js
 
 We have tested TJBot with Node.js version 10 for Raspbian (Buster)
-
->Install Node.js 10
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
@@ -33,15 +31,15 @@ sudo apt-get install -y nodejs
 
 - Install Dependencies
 
-`npm install`
-
-
-`##try 'sudo rm -rf node_modules' and 'sudo npm install --unsafeperm' if you run into errors installing dependencies`
+```
+npm install
+##try 'sudo rm -rf node_modules' and 'sudo npm install --unsafeperm' if you run into errors installing dependencies
+```
 
 - Run!
 
 `sudo node pricemonitor.js`
->Note the `sudo` command. Root user access is required to run TJBot recipes.
+>Note the `sudo` command. Root user access is required to run this recipe.
 
 Now, your TJBot should deactivate the LED (in case it was already running beforehand), fetch yesterday's closing price, and shine the LED based on the price differential for today.
 
