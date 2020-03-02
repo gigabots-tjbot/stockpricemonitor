@@ -39,4 +39,4 @@ This project is licensed under Apache 2.0. Full license is available in [LICENSE
 
 # Contributing
 
-See [CONTRIBUTING.md](../../CONTRIBUTING.md).
+See [CONTRIBUTING.md](../../master/CONTRIBUTING.md).
