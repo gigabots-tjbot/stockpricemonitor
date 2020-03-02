@@ -7,8 +7,9 @@ This recipe requires a TJBot with a [8mm NeoPixel RGB LED](adafruit.com/product/
 # Build and Run
 Install Dependencies
 
-  npm install
-##try 'sudo rm -rf node_modules' and 'sudo npm install --unsafeperm' if you run into errors installing dependencies
+`npm install`
+
+`##try 'sudo rm -rf node_modules' and 'sudo npm install --unsafeperm' if you run into errors installing dependencies`
 
 Run!
 
