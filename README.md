@@ -21,7 +21,7 @@ sudo apt-get -y dist-upgrade
 
 >During the upgrade, if you are asked about replacing the lightdm.conf file with the package maintainers version, say "Y".
 
-4. Install Node.js
+- Install Node.js
 
 We have tested TJBot with Node.js version 10 for Raspbian (Buster)
 ```
