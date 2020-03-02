@@ -5,6 +5,9 @@ Stock monitoring recipe for TJBot with LED light support based on the fluctuatio
 # Hardware
 This recipe requires a TJBot with a [8mm NeoPixel RGB LED](adafruit.com/product/1734). 
 
+# Use Cases
+![](https://i.imgur.com/p7hJhGc.png)
+
 # Build and Run
 Install Dependencies
 
@@ -30,9 +33,6 @@ Now, your TJBot should deactivate the LED (in case it was already running before
 - Monitor multiple stocks.
 - Custom color palettes and/or striplight integration.
 - Push emergency notifications.
-
-# Use Cases
-![enter image description here](https://i.imgur.com/p7hJhGc.png)
 
 # License
 This project is licensed under Apache 2.0. Full license is available in [LICENSE](https://github.com/gigabots-tjbot/stockpricemonitor/blob/master/LICENSE).
