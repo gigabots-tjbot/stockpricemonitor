@@ -31,4 +31,4 @@ Now, your TJBot should deactivate the LED (in case it was already running before
 - Push emergency notifications.
 
 # License
-This project is licensed under Apache 2.0. Full license is available in [LICENSE](github.com/ibmtjbot/tjbot/blob/master/LICENSE).
+This project is licensed under Apache 2.0. Full license is available in [LICENSE](https://github.com/gigabots-tjbot/stockpricemonitor/blob/master/LICENSE).
