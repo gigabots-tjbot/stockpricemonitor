@@ -9,7 +9,7 @@ Install Dependencies
 
 `npm install
 
-`##try 'sudo rm -rf node_modules' and 'sudo npm install --unsafeperm' if you run into errors installing dependencies`
+##try 'sudo rm -rf node_modules' and 'sudo npm install --unsafeperm' if you run into errors installing dependencies`
 
 Run!
 
