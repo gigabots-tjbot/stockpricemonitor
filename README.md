@@ -7,13 +7,12 @@ This recipe requires a TJBot with a [8mm NeoPixel RGB LED](adafruit.com/product/
 # Build and Run
 Install Dependencies
 
-`npm install
-
-##try 'sudo rm -rf node_modules' and 'sudo npm install --unsafeperm' if you run into errors installing dependencies`
+  npm install
+  ##try 'sudo rm -rf node_modules' and 'sudo npm install --unsafeperm' if you run into errors installing dependencies
 
 Run!
 
-`sudo node pricemonitor.js`
+  sudo node pricemonitor.js
 >Note the `sudo` command. Root user access is required to run TJBot recipes.
 
 Now, your TJBot should deactivate the LED (in case it was already running beforehand), fetch yesterday's closing price, and shine the LED based on the price differential.
