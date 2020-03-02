@@ -17,4 +17,18 @@ Run!
   sudo node pricemonitor.js
 >Note the `sudo` command. Root user access is required to run TJBot recipes.
 
-Now, your TJBot should deactivate the LED (in case it was already running beforehand), fetch yesterday's closing price, and shine the LED based on the price differential.
+Now, your TJBot should deactivate the LED (in case it was already running beforehand), fetch yesterday's closing price, and shine the LED based on the price differential for today.
+
+# Features
+- Real(ish) time updates
+- Easy to change which stock you'd like to monitor.
+- Multiple LED colors.
+
+# Future Features
+- Voice Responsiveness
+- Monitor multiple stocks.
+- Custom color palettes and/or striplight integration.
+- Push emergency notifications.
+
+# License
+This project is licensed under Apache 2.0. Full license is available in [LICENSE](github.com/ibmtjbot/tjbot/blob/master/LICENSE).
