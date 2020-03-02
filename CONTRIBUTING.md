@@ -6,7 +6,7 @@ If you want to contribute to the repository, please fork the project and create 
 
 ```
 	(#idOfIssue) Simple description
-	More details. This line is optional.
+	More details.
 ```
 
 If there is no issue related to your commit, create one first. It will be better to understand the goal of your work. After your Pull Request (PR) has been reviewed and signed off, a maintainer will merge it into the master branch.
